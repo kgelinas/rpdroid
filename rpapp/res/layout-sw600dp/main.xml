@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.75"
+        android:background="@drawable/list_background"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textRemaining"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_light"
+            android:gravity="bottom|center_horizontal"
+            android:textColor="@color/toolbar_text"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <com.zylinc.view.ViewPagerIndicator
+            android:id="@+id/indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_light"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/guest_welcome"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            class="com.radiopirate.android.fragments.GuestFragmentFrag" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/FrameControl"
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.25"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <fragment
+            android:id="@+id/now_playing"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            class="com.radiopirate.android.fragments.NowPlayingFrag" />
+
+        <fragment
+            android:id="@+id/controls"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            class="com.radiopirate.android.fragments.PlaybackControlsFrag" />
+    </LinearLayout>
+
+</LinearLayout>

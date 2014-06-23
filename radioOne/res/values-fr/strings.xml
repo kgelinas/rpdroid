@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Radio ONE</string>
+    <string name="title_bar">Radio ONE</string>
+    <string name="app_version">Version 1.67</string>
+    <string name="channel_name_1">Radio ONE</string>
+    <string name="channel_desc_1">Top 50 animé de Québec</string>
+
+    <!-- Live play view -->
+    <string name="stop">Arrêtez</string>
+    <string name="exit">Quitter</string>
+    <string name="play">Jouer</string>
+    <string name="show_channel_info">Afficher l\'information du canal</string>
+
+    <!-- Notification -->
+    <string name="notification_title">Radio ONE</string>
+    <string name="notification_buffering">Mise en memoire tampon…</string>
+    <string name="buffering_track">Mise en memoire tampon de la piste. S\'il vous plaît patienter …</string>
+    <string name="buffering_channel">Mise en memoire tampon du canal. S\'il vous plaît patienter …</string>
+    <string name="toast_play_failed">Erreur de lecture</string>
+    <string name="toast_play_file_not_found">Erreur de lecture: Source introuvable</string>
+    <string name="toast_play_network_unreachable">Erreur de lecture: Réseau inaccessible</string>
+    <string name="toast_stop_failed">Erreur d\'arrêt de lecture</string>
+    <string name="toast_seek_failed">La commande Recherche a échoué</string>
+    <string name="pref_autolaunch_title">Démarrage automatique</string>
+    <string name="pref_autolaunch_text">Partir le service automatiquement quand le téléphone démarre</string>
+    <string name="pref_autostart_title">Lecture Automatique</string>
+    <string name="pref_autostart_text">Jouez dernier contenu lorsque un casque filaire est connecté tandis que le service est en marche</string>
+    <string name="pref_autostop_title">Arrêt automatique</string>
+    <string name="pref_autostop_text">Arrêtez quand un casque filaire est déconnectée</string>
+    <string name="preferences">Préférences</string>
+    <string name="pref_title_headset">Preference du casque d\'écoute</string>
+    <string name="pref_title_about">A propos de l\'app Radio ONE</string>
+    <string name="report_bug">Rapporter un bug</string>
+    <string name="toast_pause_resume_failed">La commande Pause/Resume a échoué</string>
+    <string name="toast_forward_failed">La commande Avance Rapide a échoué</string>
+    <string name="toast_rewind_failed">La commande Rembobiner a échoué</string>
+    <string name="now_playing">Joue maintenant</string>
+    <string name="next">Chanson suivante</string>
+    <string name="next_carmode">Suivante</string>
+    <string name="previous">Chansons précédentes</string>
+    <string name="desc_app_icon">RadioOne</string>
+    <string name="BufferLength">Durée de la mémoire tampon</string>
+    <string name="BufferLength_dialogTitle">Sélectionnez la durée du tampon</string>
+    <string name="buffer_none">Pas de tampon</string>
+    <string name="buffer_10sec">10 secondes</string>
+    <string name="buffer_30sec">30 secondes</string>
+    <string name="pref_general">Radio ONE</string>
+
+</resources>

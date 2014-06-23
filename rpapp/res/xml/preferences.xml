@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_general" >
+        <Preference
+            android:key="username"
+            android:selectable="false"
+            android:title="@string/pref_username" />
+
+        <com.radiopirate.android.preferences.SignoutPreference
+            android:dialogMessage="@string/pref_signout_dialogMessage"
+            android:dialogTitle="@string/pref_signout_dialogTitle"
+            android:negativeButtonText="@string/pref_signout_no"
+            android:positiveButtonText="@string/pref_signout_yes"
+            android:summary="@string/pref_signout_summary"
+            android:title="@string/pref_signout_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefAutoDownload"
+            android:summary="@string/pref_auto_download_summary"
+            android:title="@string/pref_auto_download_title" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/BufferLength_dialogTitle"
+            android:entries="@array/Buffer_entries"
+            android:entryValues="@array/Buffer_entryValues"
+            android:key="BufferLength"
+            android:title="@string/BufferLength" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_headset" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefAutoLaunchService"
+            android:summary="@string/pref_autolaunch_text"
+            android:title="@string/pref_autolaunch_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefAutoStart"
+            android:summary="@string/pref_autostart_text"
+            android:title="@string/pref_autostart_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefAutoStop"
+            android:summary="@string/pref_autostop_text"
+            android:title="@string/pref_autostop_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_about" >
+        <Preference
+            android:key="Version"
+            android:selectable="false"
+            android:title="@string/app_version" />
+        <Preference
+            android:summary=""
+            android:title="radiopirate.com" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://radiopirate.com/" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

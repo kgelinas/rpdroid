@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background">#FFA7A7A7</color>
+    <color name="background_light">#FFA7A7A7</color>
+    <color name="background_white">#FFF2F4F6</color>
+    <color name="toolbar_text">#FFFFFF</color>
+    <color name="default_text">#FF000000</color>
+    <color name="background_gradiant_top">#FFA7A7A7</color>
+    <color name="background_gradiant_start">#FFA7A7A7</color>
+    <color name="background_gradiant_end">#FFA7A7A7</color>
+
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RadioPirate</string>
+    <string name="title_bar">RadioPirate</string>
+    <string name="app_version">Version 1.74.273</string>
+
+    <!-- Name of radio channels From http://www.radiopirate.com/iphone/iphone.php -->
+    <string name="channel_name_1">Buzz</string>
+    <string name="channel_name_2">Big R Radio</string>
+    <string name="channel_name_3">The Rock</string>
+    <string name="channel_name_4">Planete Rock</string>
+    <string name="channel_name_5">The Eagle</string>
+    <string name="channel_name_6">Kurt</string>
+
+    <!-- Channel description from http://www.radiopirate.com/dev/v3/indexv3_2.php, but they look wrong -->
+    <string name="channel_desc_1">Alternative Rock</string>
+    <string name="channel_desc_2">Alternative, Rock, 90s, 00s</string>
+    <string name="channel_desc_3">Hard Rock!</string>
+    <string name="channel_desc_4">Rock Top 40</string>
+    <string name="channel_desc_5">Classic Rock</string>
+    <string name="channel_desc_6">90\'s Alternative</string>
+
+    <!-- Login view -->
+    <string name="login_pwd_hint">Password</string>
+    <string name="login_login_button">Login</string>
+    <string name="login_email_hint">user@mail.com</string>
+    <string name="login_guest">Guest mode</string>
+    <string name="login_wrong_credential">Wrong username or password</string>
+    <string name="login_no_network">Cannot reach server</string>
+    <string name="login_offline">Offline mode</string>
+
+    <!-- Live play view -->
+    <string name="select_channel">Select the channel to play</string>
+    <string name="stop">Stop</string>
+    <string name="exit">Exit</string>
+    <string name="play">Play</string>
+    <string name="download">Download</string>
+    <string name="download_play">Download and Play</string>
+    <string name="delete">Delete</string>
+    <string name="delete_from_here">Delete previous</string>
+    <string name="favorite_add">Add to Favorite</string>
+    <string name="favorite_remove">Remove from Favorite</string>
+    <string name="favorite_empty">To add favorites, long press on your favorite channels in the live page, then select the option.</string>
+    <string name="show_channel_info">Show channel information</string>
+
+    <!-- Notification -->
+    <string name="notification_title">RadioPirate.com</string>
+    <string name="notification_buffering">Buffering…</string>
+    <string name="loading_podcast_title"></string>
+    <string name="loading_podcast_msg">Loading Podcast. Please wait…</string>
+    <string name="podcast_fail">Failed to get the Podcasts</string>
+    <string name="title_live">Live</string>
+    <string name="title_podcast">Podcast RP</string>
+    <string name="title_podcast_marto">Marto 4:11</string>
+    <string name="title_favorite">Favorites</string>
+    <string name="buffering_track">Buffering Track. Please Wait…</string>
+    <string name="buffering_channel">Buffering channel. Please Wait…</string>
+    <string name="logging_in">Logging in. Please Wait…</string>
+    <string name="toast_poadcast_failed">Failed to get Podcasts</string>
+    <string name="toast_download_poadcast_failed">Failed to download Podcast</string>
+    <string name="toast_play_failed">Play failed</string>
+    <string name="toast_play_file_not_found">Play failed: Source not found</string>
+    <string name="toast_play_network_unreachable">Play failed: Network unreachable</string>
+    <string name="toast_stop_failed">Stop failed</string>
+    <string name="toast_poadcast_delete_failed">Delete failed</string>
+    <string name="toast_seek_failed">Seek failed</string>
+    <string name="pref_general">RadioPirate</string>
+    <string name="pref_autolaunch_title">Auto start</string>
+    <string name="pref_autolaunch_text">Automatically start the service when the phone boots</string>
+    <string name="pref_autostart_title">Auto play</string>
+    <string name="pref_autostart_text">Play last stream when a wired headset is connected while service is running</string>
+    <string name="pref_autostop_title">Auto stop</string>
+    <string name="pref_autostop_text">Stop when a wired headset is disconnected</string>
+    <string name="pref_username">Username</string>
+    <string name="preferences">Preferences</string>
+    <string name="pref_title_headset">Headset Preference</string>
+    <string name="pref_title_about">About RadioPirate.com App</string>
+    <string name="pref_signout_title">Logout</string>
+    <string name="pref_signout_summary">Clear your account information</string>
+    <string name="pref_signout_dialogTitle">Logout confirmation</string>
+    <string name="pref_signout_dialogMessage">Are you sure that you want to logout?</string>
+    <string name="pref_signout_no">No</string>
+    <string name="pref_signout_yes">Yes</string>
+    <string name="pref_auto_download_title">Automatic download</string>
+    <string name="pref_auto_download_summary">Periodically check for new podcasts, and download the newly published ones</string>
+    <string name="report_bug">Report bug</string>
+    <string name="toast_pause_resume_failed">Pause/Resume failed</string>
+    <string name="toast_forward_failed">Forward failed</string>
+    <string name="toast_rewind_failed">Rewind failed</string>
+    <string name="now_playing">Now playing</string>
+    <string name="next">Next song</string>
+    <string name="next_carmode">Next</string>
+    <string name="previous">Previous songs</string>
+    <string name="pod_dlding">Downloading… (Press back button to download in background)</string>
+    <string name="guest">Guest</string>
+    <string name="BufferLength">Buffer length</string>
+    <string name="BufferLength_dialogTitle">Select buffer length</string>
+    <string name="buffer_none">No buffer</string>
+    <string name="buffer_10sec">10 seconds</string>
+    <string name="buffer_30sec">30 seconds</string>
+    <string name="members_only">This feature is for members only, for access subscribe to RadioPirate</string>
+    <string name="guest_welcome">Login to access the members only sections.</string>
+    <string name="remaining_lable">Expires in %s day(s).</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="subscribe_message">I want access to the full show of Jeff Fillion.</string>
+
+</resources>

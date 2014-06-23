@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_general" >
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/BufferLength_dialogTitle"
+            android:entries="@array/Buffer_entries"
+            android:entryValues="@array/Buffer_entryValues"
+            android:key="BufferLength"
+            android:title="@string/BufferLength" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_headset" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefAutoLaunchService"
+            android:summary="@string/pref_autolaunch_text"
+            android:title="@string/pref_autolaunch_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefAutoStart"
+            android:summary="@string/pref_autostart_text"
+            android:title="@string/pref_autostart_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefAutoStop"
+            android:summary="@string/pref_autostop_text"
+            android:title="@string/pref_autostop_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_about" >
+        <Preference
+            android:key="Version"
+            android:selectable="false"
+            android:title="@string/app_version" />
+        <Preference
+            android:summary=""
+            android:title="radio-one.ca" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://radio-one.ca/" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

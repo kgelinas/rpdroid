@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background">#1F77A3</color>
+	<color name="background_light">#427EB4</color>
+	<color name="background_white">#FFF2F4F6</color>
+	<color name="toolbar_text">#FFFFFF</color>
+	<color name="toolbar_text_unfocus">#BEBEBE</color>
+	<color name="default_text">#FF000000</color>
+	<color name="background_gradiant_top">#FF34454F</color>
+	<color name="background_gradiant_start">#FF0B0E15</color>
+	<color name="background_gradiant_end">#FF29343A</color>    
+</resources>

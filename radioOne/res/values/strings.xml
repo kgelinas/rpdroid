@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Radio ONE</string>
+    <string name="title_bar">Radio ONE</string>
+    <string name="app_version">Version 1.67</string>
+    <string name="channel_name_1">Radio ONE</string>
+    <string name="channel_desc_1">Top 50 animé de Québec</string>
+
+    <!-- Live play view -->
+    <string name="stop">Stop</string>
+    <string name="exit">Exit</string>
+    <string name="play">Play</string>
+    <string name="show_channel_info">Show channel information</string>
+
+    <!-- Notification -->
+    <string name="notification_title">Radio ONE</string>
+    <string name="notification_buffering">Buffering…</string>
+    <string name="buffering_track">Buffering Track. Please Wait…</string>
+    <string name="buffering_channel">Buffering channel. Please Wait…</string>
+    <string name="toast_play_failed">Play failed</string>
+    <string name="toast_play_file_not_found">Play failed: Source not found</string>
+    <string name="toast_play_network_unreachable">Play failed: Network unreachable</string>
+    <string name="toast_stop_failed">Stop failed</string>
+    <string name="toast_seek_failed">Seek failed</string>
+    <string name="pref_autolaunch_title">Auto start</string>
+    <string name="pref_autolaunch_text">Automatically start the service when the phone boots</string>
+    <string name="pref_autostart_title">Auto play</string>
+    <string name="pref_autostart_text">Play last stream when a wired headset is connected while service is running</string>
+    <string name="pref_autostop_title">Auto stop</string>
+    <string name="pref_autostop_text">Stop when a wired headset is disconnected</string>
+    <string name="preferences">Preferences</string>
+    <string name="pref_title_headset">Headset Preference</string>
+    <string name="pref_title_about">About Radio ONE App</string>
+    <string name="report_bug">Report bug</string>
+    <string name="toast_pause_resume_failed">Pause/Resume failed</string>
+    <string name="toast_forward_failed">Forward failed</string>
+    <string name="toast_rewind_failed">Rewind failed</string>
+    <string name="now_playing">Now playing</string>
+    <string name="next">Next song</string>
+    <string name="next_carmode">Next</string>
+    <string name="previous">Previous songs</string>
+    <string name="desc_app_icon">RadioOne App icon</string>
+    <string name="BufferLength">Buffer length</string>
+    <string name="BufferLength_dialogTitle">Select buffer length</string>
+    <string name="buffer_none">No buffer</string>
+    <string name="buffer_10sec">10 seconds</string>
+    <string name="buffer_30sec">30 seconds</string>
+    <string name="pref_general">Radio ONE</string>
+
+</resources>

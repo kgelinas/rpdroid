@@ -1,0 +1,11 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Maintenant les rapport d'erreur doivent être envoyer sur la page suivante: 
+http://www.radiopirate.com/support/
+
+si vous avez cliquer sur le bouton pour rapporter un bug pour vous rendre ici vous devez mettre a jours votre application.
+
+cliquez sur le lien suivant
+https://play.google.com/store/apps/details?id=com.radiopirate.android

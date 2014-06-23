@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="10dip"
+    android:background="@drawable/list_background">
+  
+    <TextView
+        android:id="@+id/podcast_name"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dip"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/default_text"/>
+    <ImageView
+        android:id="@+id/DownloadedImage"
+        android:layout_height="fill_parent"
+        android:layout_width="wrap_content" 
+        android:src="@drawable/save_blue_on" 
+        android:background="@null"
+        android:visibility="gone"
+        android:paddingLeft="10dp"/>
+    <LinearLayout
+		android:id="@+id/DownloadProgress"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:visibility="gone"
+		android:paddingLeft="10dp">
+		<ProgressBar
+		    android:layout_height="25dp"
+		    android:layout_width="25dp"
+		    android:indeterminate="true"
+		    android:layout_gravity="center_vertical"/>
+	</LinearLayout>
+    <TextView
+        android:id="@+id/podcast_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:minWidth="30sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dip"
+        android:textSize="12sp"
+        android:textColor="@color/default_text"/>
+</LinearLayout>

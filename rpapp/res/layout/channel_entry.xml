@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" 
+  android:layout_height="?android:attr/listPreferredItemHeight"
+  android:padding="10dip"
+  android:orientation="horizontal"
+  android:background="@drawable/list_background">
+  
+  <ImageView
+  		android:id="@+id/channel_image"
+        android:layout_width="40dp"
+       	android:layout_height="40dp"
+       	android:scaleType="fitCenter"
+       	android:layout_gravity="center_vertical"/>
+  <TextView
+  		android:id="@+id/channel_name"
+        android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/default_text"/>
+  <TextView
+  		android:id="@+id/channel_description"
+        android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:textSize="14sp"
+        android:textColor="@color/default_text"
+        android:layout_gravity="center_vertical"/>        
+</LinearLayout>
